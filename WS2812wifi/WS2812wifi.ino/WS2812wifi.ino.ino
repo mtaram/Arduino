@@ -5,7 +5,7 @@
 #include <NeoPixelBus.h>
 #include <ESP8266mDNS.h>
 
-#define pixelCount 24            //number of pixels in RGB strip
+#define pixelCount 32            //number of pixels in RGB strip
 #define PIN            2
 NeoPixelBus strip = NeoPixelBus(pixelCount, 0);  //GPIO 0
 //Adafruit_NeoPixel strip = Adafruit_NeoPixel(pixelCount, PIN, NEO_GRB + NEO_KHZ800);
